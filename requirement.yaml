@@ -1,0 +1,11 @@
+# requirement.yaml
+#
+
+name: sentbert
+dependencies:
+    - python>=3.8
+    - sentence_transformers==2.1.0
+    - pytorch==1.11.0 cudatoolkit=11.3 -c pytorch
+    - numpy
+    - pytorch faiss-gpu=1.7.3 cudatoolkit=11.3
+    - matplotlib 
